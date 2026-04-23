@@ -47,3 +47,4 @@ console.log(myName)
 
 // var my@email="Fareed@gmai.com";
 // console.log(my@email)
+
