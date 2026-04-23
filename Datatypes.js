@@ -27,7 +27,7 @@ console.log(temp);
 
 console.log("Undefined")
 let imp;
-console.logs(imp);
+console.log(imp);
 
 console.log("Symbol")
 let id=Symbol("id");
