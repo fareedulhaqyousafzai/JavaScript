@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Type</title>
+</head>
+<body>
+    <script>
+
+
+document.write("<h1>"+"Data Type"+"</h1>");
+
+
+document.write("<h2>"+"primitives Data Type"+"</h2>");
+document.write("<h3>"+"String,Number,Boolean,undefined,null,Symbol,BigInt"+"</h3>");
+//String,Number,Boolean,undefined,null,Symbol,BigInt
+
+
+
+
+
+document.write("<h4>"+"String"+"</h4>")
+const Name="Shahid"; 
+document.write(Name+"<br>");
+
+document.write("<h4>"+"Number"+"</h4>")
+const Index=1434; 
+document.write(Index+"<br>");
+
+document.write("<h4>"+"boolean"+"</h4>")
+const value=true;
+document.write(value+"<br>");
+
+document.write("<h4>"+"Null"+"</h4>")
+const temp=null;
+document.write(temp+"<br>");
+
+document.write("<h4>"+"Undefined"+"</h4>")
+let imp;
+document.write(imp+"<br>");
+
+document.write("<h4>"+"Symbol"+"</h4>")
+let id=Symbol("id");
+let id2=Symbol("id");
+
+
+let id3= id == id2;
+document.write(id2.toString()+"<br>");
+
+
+document.write("<h4>"+"BigInt"+"</h4>")
+let big=BigInt("1234567890123456789012345678901234567890");
+document.write(big+"<br>");
+
+document.write("<h2>"+"Non-primitive data type  "+"</h2>");
+document.write("<h3>"+"Array,Object,Function"+"</h3>");
+4
+
+
+document.write("<h4>"+"Array"+"</h4>")
+const Students=["Farhan","Aftab","Samad","Kamran"]; 
+document.write(Students+"<br>");
+
+document.write("<h4>"+"Object"+"</h4>")
+const Student={Name:"Fareed",Age:23,}; 
+document.write(Student.Name+"<br>"+Student.Age+"<br>");
+
+document.write("<h4>"+"Function"+"</h4>")
+function sum(a,b){
+    return a+b; }
+document.write(sum(5,10)+"<br>");
+
+    </script>
+
+</body>
+</html>
