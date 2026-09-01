@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>if_else_if</title>
+</head>
+<body>
+    <script>
+
+let persentage= parseInt(prompt("Enter Your Persentage"));
+
+if(persentage>=90 && persentage<=100){
+document.write("Persentage :"+persentage + " Grad A1+" );
+}
+else if(persentage>=80 && persentage<90){
+    document.write("Persentage :"+persentage + " Grad A1" );
+}
+else if(persentage>=70 && persentage<80){
+    document.write("Persentage :"+persentage + " Grad A" );
+}
+else if(persentage>=60 && persentage<70){
+    document.write("Persentage :"+persentage + " Grad B" );
+}
+else if(persentage>=50 && persentage<60){
+    document.write("Persentage :"+persentage + " Grad C" );
+}
+else if(persentage>=40&& persentage<50){
+    document.write("Persentage :"+persentage + " Grad D" );
+}
+else if(persentage<40){
+    document.write("Fail" );
+}
+
+else{
+    document.write("Invalid");
+}
+    </script>
+
+</body>
+</html>
