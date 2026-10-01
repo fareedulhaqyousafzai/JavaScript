@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For in Loop</title>
+</head>
+<body>
+    <script>
+document.write("<h1>"+" For in Loop"+"</h1>")
+document.write("<h2>"+" For in Loop Array"+"</h2>")
+
+let Stusents=["Imran","Shaibaz","Kamran","Zeeshan"];
+
+var i;
+for(i in Stusents){
+    document.write(Stusents[i]+"<br>")
+}
+
+document.write("<h2>"+" For in Loop Object"+"</h2>")
+let Student={
+Name:"Fareed Ul Haq Youafzai",
+Age:24,
+Email:"fareedulhaqyousafzai@gmail.com",
+}
+var a;
+for(a in Student){
+    document.write(a+" :"+Student[a]+"<br>")
+};
+
+    </script>
+    
+</body>
+</html>
