@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods II</title>
+</head>
+<body>
+    <script>
+        document.write("<h1>"+"String Methods II"+"</h1>")
+        document.write("<h2>"+" charAt"+"</h2>")
+        let caa="Pakistan";
+       let cab=caa.charAt(3);
+       document.write(caa+"<br>"+cab); 
+
+       document.write("<h2>"+" charCodeAt"+"</h2>")
+        let cca="Pakistan";
+       let ccb=caa.charCodeAt(1);
+       document.write(cca+"<br>"+ccb); 
+
+       document.write("<h2>"+" fromCharCode"+"</h2>")
+       let fc=String.fromCharCode(65);
+       document.write(fc); 
+
+       document.write("<h2>"+" concat"+"</h2>")
+        let ca="Pakistan ";
+       let cb="Zindabad"
+       let cc=ca.concat(cb);
+       document.write(ca+"<br>"+cb+"<br>"+cc); 
+
+       document.write("<h2>"+" split"+"</h2>")
+let cna="Pakistan officially the Islamic Republic of Pakistan";
+let cnb=cna.split(" ");
+document.write(cna+"<br>"+cnb);
+
+document.write("<h2>"+" repeat"+"</h2>")
+let mra="Pakistan"+"<br>";
+let mrb=mra.repeat(3);
+document.write(mrb);
+
+document.write("<h2>"+" slices"+"</h2>")
+let sva="Pakistan officially the Islamic Republic of Pakistan";
+let svb=cna.slice(8);
+document.write(sva+"<br>"+svb);
+
+
+document.write("<h2>"+" substr"+"</h2>")
+let ssa="Pakistan officially the Islamic Republic of Pakistan";
+let ssb=cna.substr(19,25);
+document.write(ssa+"<br>"+ssb);
+
+
+document.write("<h2>"+" substring"+"</h2>")
+let svaa="Pakistan officially the Islamic Republic of Pakistan";
+let svbb=cna.substring(19);
+document.write(svaa+"<br>"+svbb);
+
+
+document.write("<h2>"+" toString"+"</h2>")
+let tsa=10;
+let tsb=tsa.toString();
+document.write(tsb+20);
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

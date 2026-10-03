@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+ 
+    <script>
+   document.write("<h1>"+"String Methods"+"</h1>")
+   document.write("<h2>"+" lenght"+"</h2>")
+let lca="Pakistan is my Country";
+let lcb=lca.length;
+document.write(lca +"<br> "+lcb);
+
+document.write("<h2>"+"to Upper Case "+"</h2>")
+let cuca="Islamic Republic of Pakistan";
+let cucb=cuca.toUpperCase();
+document.write(cucb);
+
+document.write("<h2>"+"to Lower Case "+"</h2>")
+let clca="Islamic Republic of Pakistan";
+let clcb=cuca.toLowerCase();
+document.write(clcb+"<br>");
+
+document.write("<h2>"+"Includes "+"</h2>")
+let ima ="pakistan";
+let imb=ima.includes("pakistan");
+if(imb==true){
+    document.write("Value is Match")
+}
+else{
+    document.write("Value is not Match");
+}
+
+document.write("<h2>"+"startsWith"+"</h2>")
+
+let swa ="JavaScript is the world's most popular programming language";
+let swb=swa.startsWith("pakistan");
+if(swb==true){
+    document.write("Value is Match")
+}
+else{
+    document.write("Value is not Match");
+}
+
+document.write("<h2>"+"endsWith"+"</h2>")
+
+let ewa ="JavaScript is the world's most popular programming language";
+let ewb=swa.endsWith("language");
+if(ewb==true){
+    document.write("Value is Match")
+}
+else{
+    document.write("Value is not Match");
+}
+
+document.write("<h2>"+"search"+"</h2>")
+
+let sma ="JavaScript is the world's most popular programming language";
+
+let smb=swa.search("popular");
+document.write(sma+"<br>"+smb);
+
+document.write("<h2>"+"match"+"</h2>")
+let mma ="JavaScript is the world's most popular programming language";
+let mmb=swa.match(/is/g);
+document.write(mmb);
+
+document.write("<h2>"+"indexOf"+"</h2>")
+let ioa ="JavaScript is the world's most popular programming language";
+let iob=swa.indexOf("is");
+document.write(ioa+"<br>"+iob);
+
+document.write("<h2>"+"lastIndexOf"+"</h2>")
+let ila ="JavaScript is the world's most popular programming language";
+let ilb=swa.lastIndexOf("most");
+document.write(ila+"<br>"+ilb);
+
+document.write("<h2>"+"replace"+"</h2>")
+let rma="JavaScript is Great Language";
+let rmb=rma.replace("JavaScript","PHP")
+document.write(rma+"<br><br>"+rmb);
+
+document.write("<h2>"+"Literal "+"</h2>")
+let myName="Fareed";
+let myAge=28;
+document.write(`My name is ${myName} and my age is ${myAge}`);
+
+document.write("<h2>"+"Escape "+"</h2>")
+const escaped = 'It\'s a beautiful day.';
+document.write(escaped);
+    </script>
+</body>
+</html>
