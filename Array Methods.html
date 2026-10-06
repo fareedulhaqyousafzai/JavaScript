@@ -16,7 +16,7 @@ value[0]=50;
 value[1]=40;
 value[2]=60;
 document.write(value+"<br>");
-document.write("Push"+"<br>");s
+document.write("Push"+"<br>");
 value.push(70);
 document.write("ToString"+"<br>");
 value.toString();
@@ -29,6 +29,48 @@ document.write("Pop"+"<br>");
 let popS=value.pop();
 document.write(popS+"<br>");
 document.write(value+"<br>");
+
+let shiftS=value.shift();
+document.write(shiftS+"<br>");
+ let unshiftS=value.unshift(100);
+document.write(unshiftS+"<br>");
+ let sliceS=value.slice(1,3);
+document.write(sliceS+"<br>");
+
+let spliceS=value.splice(1,2,200,300);
+document.write(spliceS+"<br>");
+let concatS=value.concat(400,500);
+document.write(concatS+"<br>");
+ 
+let indexS=value.indexOf(30);
+document.write(indexS+"<br>");
+
+let lastIndexS=value.lastIndexOf(30);
+document.write(lastIndexS+"<br>");
+
+let
+    includesS=value.includes(30);
+document.write(includesS+"<br>");
+
+let AsiaCon =["Pakistan","India","Bangladesh"];
+document.write(AsiaCon+"<br>");
+
+let NorthAmericaCon =["USA","Canada","Australia"];
+document.write(NorthAmericaCon+"<br>");
+
+let AllCon=AsiaCon.concat(NorthAmericaCon);
+document.write(AllCon+"<br>");
+
+let number=[20,50,30,10,40];
+document.write(number+"<br>");
+number.sort();
+document.write(number+"<br>");
+
+let numReverse=[1,2,3,4,5];
+numReverse.reverse();
+document.write(numReverse+"<br>");
+
+
 
 
 
