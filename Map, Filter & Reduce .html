@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Method</title>
+</head>
+<body>
+    <script>
+
+
+        document.write("<br> <br>");
+        var arry=[
+{fname:"Fareed",lname:"Khan"},
+{fname:"Ali",lname:"Khan"},
+        ];
+        var maps = arry.map(function(x){
+    return x.fname + "<br> " + x.lname; 
+});
+document.write(maps);
+document.write("<br> <br>");
+
+let Arryfil = [5, 10, 15, 20, 25];
+document.write(Arryfil);
+document.write("<br> <br>");
+
+filteredArry = Arryfil.filter(function(x){
+    return x <15;
+});
+document.write(filteredArry);
+
+let arryreduce = [5, 10, 15, 20, 25];
+document.write(arryreduce);
+document.write("<br> <br>");
+
+reducedArry = arryreduce.reduce(function(total, x){
+    return total + x;
+}); 
+document.write(reducedArry);
+     
+            
+        
+
+    </script>
+</body>
+</html>
