@@ -38,7 +38,16 @@ let reducedArry = arryreduce.reduce(function(total, x){
     return total + x;
 }); 
 document.write(reducedArry);
+document.write("<br> <br>");
      
+
+
+let myArry = [5, 10, 15, 20, 25];
+document.write("Purana Array: " + myArry + "<br><br>");
+let pushedArry = prompt("Enter a number to push in the array");
+let convrtPushedArry = parseInt(pushedArry);
+myArry.push(convrtPushedArry);
+document.write("Naya Array: " + myArry);
             
         
 
